@@ -30,4 +30,3 @@ my implementation of the classic **_fifteen puzzle game_**(a sliding puzzle that
 
 </div>
 
-### 🕶 Demo
