@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=400px  src="https://github.com/AbdallahHemdan/fifteenPuzzleGame/blob/master/screenShots/Logo.png" alt="fifteen puzzle game logo"></a>
+ <img width=400px  src="https://github.com/AbdallahHemdan/fifteenPuzzleGame/blob/master/screenShots/400px-15-puzzle.svg.png" alt="fifteen puzzle game logo"></a>
 </p>
 
 <h3 align="center">fifteen puzzle <br>Game💭💡🏆 </h3>
