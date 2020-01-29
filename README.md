@@ -32,6 +32,11 @@ my implementation of the classic **_fifteen puzzle game_**(a sliding puzzle that
 
 </div>
 
+## 🕶 Demo
+----------
+
+<img src="https://github.com/AbdallahHemdan/fifteenPuzzleGame/blob/master/demo/fifteenPuzzleGame-out.gif">
+
 ## ✔ ToDo
 
 - [X] Creating an OverLay for Starting the game, succefully completing the game.
