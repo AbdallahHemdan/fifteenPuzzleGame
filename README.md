@@ -25,7 +25,9 @@ my implementation of the classic **_fifteen puzzle game_**(a sliding puzzle that
 <div align="center">
   
 ![image](https://user-images.githubusercontent.com/40190772/73338850-2dcedc00-4280-11ea-989c-81f0c1569f63.png)
+<br>
 ![image](https://user-images.githubusercontent.com/40190772/73339015-738ba480-4280-11ea-836e-e3c6c7261564.png)
+<br>
 ![image](https://user-images.githubusercontent.com/40190772/73339049-8900ce80-4280-11ea-9737-2b2876ff2707.png)
 
 </div>
