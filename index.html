@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Fifteen Puzzle Game 🎈🏆</title>
+        <link rel="icon" href="img/favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body onload="startReadyOverLay()">
+        <div id="overlay-1" onclick="endReadyOverLay()">
+            <div id="text-1">Are you ready ? <br>Click to go🚴‍♂️</div>
+        </div>
+        </div>
+        <div class="container">
+            <header>
+                <h1 class="name-letters"> <span class="fifteen">Fifteen</span> Puzzle <br>Game 💭💡🏆</h1>
+                <hr />
+            </header>
+            <section>
+                <div id="game"></div>
+                <hr />
+                <div id="controls">
+                    <button id="solve">Solve</button>
+                    <button id="shuffle">Reset</button>
+                </div>
+            </section>  
+            <footer>Created by <a href="https://github.com/AbdallahHemdan" target="_blank">Abdallah Hemdan</a></footer>
+            <div id="overlay-2" onclick="endCongratsOverLay()">
+                <div id="text-2">Congrats 🎈🎉, You did it! click to replay</div>
+            </div>
+            <script src="js/app.js"></script>
+        </div>
+    </body>
+</html>
