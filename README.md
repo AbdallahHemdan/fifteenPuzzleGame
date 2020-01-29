@@ -32,3 +32,8 @@ my implementation of the classic **_fifteen puzzle game_**(a sliding puzzle that
 
 </div>
 
+### ✔ ToDo
+
+- [X] Creating an OverLay for Starting the game, succefully completing the game.
+- [ ] Adding moves count with limiting maximum numer of moves.
+- [ ] Adding timer to calc the time-taken for complete the game.
