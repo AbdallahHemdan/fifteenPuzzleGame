@@ -1,8 +1,9 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=400px  src="" alt="fifteen puzzle game logo"></a>
+ <img width=400px  src="https://github.com/AbdallahHemdan/fifteenPuzzleGame/blob/master/screenShots/Logo.png" alt="fifteen puzzle game logo"></a>
 </p>
 
+<h3 align="center">fifteen puzzle <br>Game💭💡🏆 </h3>
 <div align="center">
 
 [![GitHub contributors](https://img.shields.io/github/contributors/AbdallahHemdan/15PuzzleGame)](https://github.com/AbdallahHemdan/15PuzzleGame/contributors)
