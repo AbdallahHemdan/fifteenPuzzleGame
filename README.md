@@ -19,7 +19,7 @@
 
 my implementation of the classic **_fifteen puzzle game_**(a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing while the object of the puzzle is to place the tiles in order by making sliding moves that use the empty space).
 
-### 📷 ScreenShots 
+## 📷 ScreenShots 
 -------------------
 
 <div align="center">
@@ -31,4 +31,12 @@ my implementation of the classic **_fifteen puzzle game_**(a sliding puzzle that
 ![image](https://user-images.githubusercontent.com/40190772/73339049-8900ce80-4280-11ea-9737-2b2876ff2707.png)
 
 </div>
+
+## ✔ ToDo
+
+- [X] Creating an OverLay for Starting the game, succefully completing the game.
+- [X] Record a video as a Live-Demo
+- [ ] Add Gif to the README file
+- [ ] Adding moves counter with limiting maximum numer of moves.
+- [ ] Adding timer to calculate the time-taken for complete the game.
 
