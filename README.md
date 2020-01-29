@@ -15,7 +15,7 @@
 </div>
 
 ---
-## 🎈 Fifteen Puzzle Game [let's play a game](https://abdallahhemdan.github.io/)
+## 🎈 Fifteen Puzzle Game [let's play a game](https://abdallahhemdan.github.io/fifteenPuzzleGame/)
 
 _my implementation of the classic **fifteen puzzle game**(a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing while the object of the puzzle is to place the tiles in order by making sliding moves that use the empty space.)._
 
