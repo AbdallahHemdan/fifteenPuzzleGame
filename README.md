@@ -42,6 +42,6 @@ my implementation of the classic **_fifteen puzzle game_**(a sliding puzzle that
 - [X] Creating an OverLay for Starting the game, succefully completing the game.
 - [X] Record a video as a Live-Demo
 - [X] Add Gif to the README file
-- [ ] Adding moves counter with limiting maximum numer of moves.
+- [ ] Adding moves counter to limit maximum numer of moves to pass the game.
 - [ ] Adding timer to calculate the time-taken for complete the game.
 
