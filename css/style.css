@@ -72,18 +72,6 @@ hr {
   color: #c90505;
   letter-spacing: 2px;
 }
-/* 
-footer {
-  margin: 0;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  color: black;
-} */
-
-footer a {
-  color: rgb(194, 5, 5);
-}
 
 #overlay-1,
 #overlay-2 {
@@ -195,4 +183,7 @@ footer a {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   text-decoration: none;
+}
+footer span {
+  color: #d13434;
 }
