@@ -60,7 +60,7 @@ hr {
 
 .name-letters {
   margin: 20px 0;
-  /* font-family: "Indie Flower", cursive; */
+  font-family: "Indie Flower", cursive;
   font-size: 50px;
 }
 
@@ -161,12 +161,13 @@ hr {
   background-color: #df273a;
 }
 .btn-outline-primary {
-  color: #df273a;
+  color: #ffffff;
   border-color: #df273a;
+  background-color: #df273a;
 }
 .btn-outline-primary:hover {
-  background-color: #df273a;
-  color: #fff;
+  background-color: #fff;
+  color: #df273a;
   border-color: #df273a;
 }
 
