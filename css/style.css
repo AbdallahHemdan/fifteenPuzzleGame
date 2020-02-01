@@ -1,30 +1,10 @@
 body {
   background: #f0f0f0;
-  font-family: "Indie Flower", cursive;
   text-align: center;
 }
 
 #controls {
   text-align: center;
-}
-
-#controls button {
-  cursor: pointer;
-  outline: none;
-  padding: 10px 20px;
-  margin: 25px 2px;
-  border: 0;
-  border-radius: 9px;
-  background: #001f1f;
-  font: bold 14px;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
-  color: #fff;
-}
-
-#controls button:hover {
-  background: #05b6ce;
 }
 
 #game {
@@ -58,7 +38,7 @@ body {
 }
 
 #game span.number.light {
-  background: darkred;
+  background: rgb(141, 2, 2);
 }
 
 #game span.number.dark {
@@ -80,6 +60,7 @@ hr {
 
 .name-letters {
   margin: 20px 0;
+  /* font-family: "Indie Flower", cursive; */
   font-size: 50px;
 }
 
@@ -88,17 +69,17 @@ hr {
   font-weight: 800;
   mix-blend-mode: darken;
   opacity: 0.8;
-  color: #8b0000;
+  color: #c90505;
   letter-spacing: 2px;
 }
-
+/* 
 footer {
   margin: 0;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
   color: black;
-}
+} */
 
 footer a {
   color: rgb(194, 5, 5);
@@ -117,10 +98,12 @@ footer a {
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 2;
   cursor: pointer;
+  font-family: "Indie Flower", cursive;
 }
 
 #text-1,
 #text-2 {
+  font-family: "Indie Flower", cursive;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -139,4 +122,77 @@ footer a {
   /* opacity: 0.8; */
   color: #8b0000;
   letter-spacing: 4px;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  margin: 15px 0 0 0;
+  min-width: 100px;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.social-icons {
+  position: relative;
+  text-align: center;
+  margin: 20px auto;
+}
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: #df273a;
+}
+.btn-outline-primary {
+  color: #df273a;
+  border-color: #df273a;
+}
+.btn-outline-primary:hover {
+  background-color: #df273a;
+  color: #fff;
+  border-color: #df273a;
+}
+
+footer {
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+footer a {
+  color: #df273a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
 }

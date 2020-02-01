@@ -1,37 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Fifteen Puzzle Game 🎈🏆</title>
-        <link rel="icon" href="img/favicon.png">
-        <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body onload="startReadyOverLay()">
-        <div id="overlay-1" onclick="endReadyOverLay()">
-            <div id="text-1">Are you ready ? <br>Click to go🚴‍♂️</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Fifteen Puzzle Game 🎈🏆</title>
+    <link rel="icon" href="img/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body onload="startReadyOverLay()">
+    <div id="overlay-1" onclick="endReadyOverLay()">
+      <div id="text-1">Are you ready ? <br />Click to go🚴‍♂️</div>
+    </div>
+    <div class="container">
+      <header>
+        <h1 class="name-letters">
+          🎈<span class="fifteen">Fifteen</span>Puzzle🏆
+        </h1>
+        <!-- <hr /> -->
+      </header>
+      <section>
+        <div id="game"></div>
+        <div id="controls">
+          <div id="solve"></div>
+          <button class="btn btn-outline-primary" id="shuffle">Reset</button>
         </div>
-        </div>
-        <div class="container">
-            <header>
-                <h1 class="name-letters"> <span class="fifteen">Fifteen</span> Puzzle <br>Game 💭💡🏆</h1>
-                <hr />
-            </header>
-            <section>
-                <div id="game"></div>
-                <hr />
-                <div id="controls">
-                    <div id="solve"></div>
-                    <button id="shuffle">Reset</button>
-                </div>
-            </section>  
-            <footer>Created by <a href="https://github.com/AbdallahHemdan" target="_blank">Abdallah Hemdan</a></footer>
-            <div id="overlay-2" onclick="endCongratsOverLay()">
-                <div id="text-2">Congrats 🎈🎉, You did it! click to replay</div>
-            </div>
-            <script src="js/app.js"></script>
-        </div>
-    </body>
+      </section>
+      <div class="social-icons">
+        <a href="https://github.com/AbdallahHemdan" target="_black">
+          <i title="Github" class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/abdallah-a-hemdan-4a94a614a/"
+          target="_black"
+        >
+          <i title="Linkedin" class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:abdallah.ahmed.hemdan@gmail.com" target="_black">
+          <i title="My mail" class="far fa-envelope"></i>
+        </a>
+        <a href="https://www.hackerrank.com/Hemdan" target="_black">
+          <i title="HackerRank" class="fab fa-hackerrank"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100009270028400"
+          target="_black"
+        >
+          <i title="FaceBook" class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://codeforces.com/profile/AbdallahHemdan" target="_black">
+          <i title="CodeForces" class="fas fa-link"></i>
+        </a>
+      </div>
+      <footer>
+        CopyRight &copy;Abdallah Hemdan 2020.
+      </footer>
+      <div id="overlay-2" onclick="endCongratsOverLay()">
+        <div id="text-2">Congrats 🎈🎉, You did it! click to replay</div>
+      </div>
+      <script src="js/app.js"></script>
+    </div>
+  </body>
 </html>
